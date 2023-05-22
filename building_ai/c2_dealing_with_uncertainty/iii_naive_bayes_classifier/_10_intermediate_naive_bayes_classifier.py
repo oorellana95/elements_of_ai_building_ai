@@ -1,5 +1,5 @@
 """
-Exercise 9: Block or not
+Exercise 10 (intermediate): Naive Bayes classifier
 
 Let's suppose you have a social media account on Instagram, Twitter, or some other platform. (Just in case you don't,
 it doesn't matter. We'll fill you in with the relevant information.) You check your account and notice that you have
@@ -34,17 +34,15 @@ P(bot | 8-digits) =  P(8-digits | bot) x P(bot) / P(8-digits).
 """
 
 
-def bot8(pbot, p8_bot, p8_human):
-    p_human = 1 - pbot
-    p8 = p8_bot*pbot + p8_human*p_human
-    pbot_8 = p8_bot*pbot / p8
-    print(pbot_8)
+def flip(n):
+    odds = 1.0         # start with 50% chance of the magic coin, which is the same as odds = 1:1
+    p_heads_magic = 1.0
+    p_heads_normal = 0.5
+    r = p_heads_magic / p_heads_normal
+    odds = odds * r**n
+    print(odds)
 
 
-# you can change these values to test your program with different values
-pbot = 0.05
-p8_bot = 0.8
-p8_human = 0.01
-
-bot8(pbot, p8_bot, p8_human)
+n = 3
+flip(n)
 

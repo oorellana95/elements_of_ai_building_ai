@@ -1,5 +1,5 @@
 """
-Exercise 8: Fishing in the Nordics
+Exercise 8 (intermediate): Fishing in the Nordics
 
 Write a program that uses statistics about the population and fishing industry employment to print out conditional
 probabilities of each nationality given that the winner works in the fishing industry.

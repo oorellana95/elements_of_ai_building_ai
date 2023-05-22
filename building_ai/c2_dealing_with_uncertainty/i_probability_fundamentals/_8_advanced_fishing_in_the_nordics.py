@@ -1,5 +1,5 @@
 """
-Exercise 8: Fishing in the Nordics
+Exercise 8 (advanced): Fishing in the Nordics
 
 Suppose we also happen to know the gender of the lottery winner. Here are same
 OECD statistics as above broken down by gender. Write a function that uses the above numbers and tries to guess the
