@@ -3,8 +3,8 @@ Exercise 13 (intermediate): Predictions with more data
 
 Try modifying the code below by adding the numbers for a sixth cabin into the data so that you have the following
 data set: https://buildingai.elementsofai.com/Machine-Learning/linear-regression
-
-Do not change the print statements."""
+Do not change the print statements.
+"""
 import numpy as np
 
 
